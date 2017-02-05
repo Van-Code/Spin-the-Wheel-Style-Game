@@ -1,0 +1,54 @@
+
+.centered {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#container {
+    width: 768px;
+    height: 768px;
+}
+
+
+#drawing_canvas {
+    position: absolute;
+}
+.gamepage{
+	text-align: center;
+    width: 35em;
+    margin: 0 auto;
+}
+#gamestage{
+	margin:1em auto 0; 
+	/*width:30em;*/
+	display:block;
+}
+#spin-btn{
+	cursor:pointer;
+    background:    #42c5fb;
+    border-radius: 5px;
+    box-shadow:    0 1px 0 0 #444;
+    color:         #fff;
+    display:       inline-block;
+    padding:       8px 50px;
+    font:          normal 700 24px/1 "Roboto", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px 0 #000;
+}
+.game-btn-wrapper{
+	margin:2em 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+    #gamestage{
+        width:100%;
+        height:auto;
+    }
+    .gamepage{
+        width:auto;
+    }
+}
