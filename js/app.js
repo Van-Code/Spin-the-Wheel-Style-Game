@@ -61,7 +61,7 @@
         var rounds = game.rnd.between(2, 4),
 
         // get random boolean to determine win or lose
-        var random_boolean = Math.random() >= 0.5;
+        var random_boolean = Math.random() >= 0.5,
         degrees = '';
         // if winner is true stop between these degrees. else between the second set of degrees. This is the actual spin
         if(random_boolean){
